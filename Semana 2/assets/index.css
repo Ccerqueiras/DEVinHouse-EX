@@ -1,1 +1,66 @@
-.
+header {
+    background-color: rgb(50, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 255, 255);
+  }
+body{
+    background-color: rgb(50, 49, 49);
+    color: rgb(0, 0, 0);
+}
+  h1 {
+    margin: 0;
+    font-size: 1.5em;
+    color: white;
+  }
+  .EventTI{
+    color: white;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+  }
+  .nav li {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 1.2em;
+  }
+  
+  .nav li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .nav li a:hover {
+    color: #a6acaf;
+  }
+  .card{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 3%;
+    align-items: center;
+  }
+
+  .mainEvent{
+    border-radius: 15px 0px 0px 15px;
+    width:100%;
+    margin-bottom: 5px;
+    
+  }
+  .card-info{
+    background-color: antiquewhite;
+    border-radius: 0px 15px 15px 0px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    margin-bottom: 4px;
+    height: 100%;
+    
+  }
