@@ -9,6 +9,7 @@ header {
 
 body {
   padding: 0;
+  margin: 0;
   background-color: rgb(50, 49, 49);
 
 }
@@ -128,10 +129,41 @@ h1 {
   justify-content: flex-end;
   margin: 10px;
 }
-.button1{
+
+.button1 {
   width: 150px;
   height: 50px;
 }
+
+.rodp {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  align-items: baseline;
+  background-color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+footer {
+  background-color: black;
+}
+
+.logoSo {
+  border-radius: 25%;
+  width: 20px;
+  margin-left: 5px;
+}
+
+.logoSo img {
+  flex-direction: column;
+}
+
+.linha2{
+justify-content: flex-end;
+padding-top:18px;
+}
+
 @media screen and (max-width: 768px) {
 
   .nav ul {
@@ -168,5 +200,6 @@ h1 {
   .card-info {
     background-color: antiquewhite;
     border-radius: 0px 0px 15px 15px;
+
   }
 }
