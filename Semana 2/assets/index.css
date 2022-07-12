@@ -159,10 +159,26 @@ footer {
   flex-direction: column;
 }
 
-.linha2{
-justify-content: flex-end;
-padding-top:18px;
+.linha1 {
+  align-self: center;
 }
+
+.card-info-main {
+  width: 100%;
+}
+
+.diaMain {
+  align-self: center;
+  font-size:2em ;
+  color: red;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.textBaixo {
+  font-size: 20px;
+}
+
 
 @media screen and (max-width: 768px) {
 
