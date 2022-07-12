@@ -112,6 +112,26 @@ h1 {
   font-style: oblique;
 }
 
+.form {
+  display: flex;
+}
+
+.input-form {
+  padding: 10px;
+  flex: 1;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.botao {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+.button1{
+  width: 150px;
+  height: 50px;
+}
 @media screen and (max-width: 768px) {
 
   .nav ul {
@@ -119,7 +139,6 @@ h1 {
     flex-direction: column;
     gap: 10px;
   }
-
 
   main {
     padding: 3% 2%;
@@ -136,13 +155,16 @@ h1 {
   .list-events {
     flex-direction: column;
   }
+
   .list-events .card {
     width: 100%;
   }
+
   .mainEvent {
     border-radius: 15px 0px 0px 15px;
     width: 100%;
   }
+
   .card-info {
     background-color: antiquewhite;
     border-radius: 0px 0px 15px 15px;
