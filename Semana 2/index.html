@@ -1,63 +1,103 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/index.css" />
-    <link rel="icon" type="icon" href="assets/icon.png" />
-    
-    <title>E-ventos</title>
-  </head>
-  <body>
-    <header>
-      <div class="title">
-        <img
-          class="logo"
-          src="assets/icon.png"
-          alt="Logo da página"
-          width="50em"
-        />
-        <h1>E-ventos</h1>
-      </div>
-      <nav class="nav">
-        <ul>
-          <li><a>Eventos</a></li>
-          <li><a>Sobre</a></li>
-          <li><a>Contato</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <h5 class="EventTI">Evento em destaque</h5>
 
-        <div class="card">
-          <div class="card-img">
-            <img
-              class="mainEvent"
-              src="assets/mainEvent.png"
-              alt="Logo da página"
-            />
-          </div>
-          <div class="card-info">
-            <div class="card-info-main">
-              <h2>PLAYGROUND MUSIC FESTIVAL</h2>
-              <div class="container-date">
-                <p class="diaMain">
-                  Sábado
-                  <time datetime="2022-12-27 12:00">16 julho 2022</time>
-                </p>
-              </div>
-              <p class="MainET"></p>
-              <p>
-                Horário início: 18:00 Horário término: 14:00 PARQUE MAEDA - ITU
-                – SP Rod. Dep. Archimedes Lammoglia - Km 18
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/index.css" />
+  <link rel="icon" type="icon" href="assets/icon.png" />
+
+  <title>E-ventos</title>
+</head>
+
+<body>
+  <header>
+    <div class="title">
+      <img class="logo" src="assets/icon.png" alt="Logo da página" width="50em" />
+      <h1>E-ventos</h1>
+    </div>
+    <nav class="nav">
+      <ul>
+        <li><a>Eventos</a></li>
+        <li><a>Sobre</a></li>
+        <li><a>Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <h2 class="EventTI">Evento em destaque</h2>
+
+      <div class="card">
+        <div class="card-img">
+          <img class="mainEvent" src="assets/mainEvent.png" alt="Logo da página" />
+        </div>
+        <div class="card-info">
+          <div class="card-info-main">
+            <h3>PLAYGROUND MUSIC FESTIVAL</h3>
+            <div class="container-date">
+              <p class="diaMain">
+                Sábado -
+                <time datetime="2022-12-27 12:00">16 julho 2022</time>
               </p>
             </div>
+            <p class="MainET"></p>
+            <p class="textBiaxo">
+              Horário início: 18:00 Horário término: 14:00 PARQUE MAEDA - ITU
+              – SP Rod. Dep. Archimedes Lammoglia - Km 18
+            </p>
           </div>
         </div>
-      </section>
-    </main>
-  </body>
+      </div>
+    </section>
+    <section id="events">
+      <h2 class="EventTI">Lista de eventos</h2>
+      <ul class="list-events">
+        <li class="card">
+          <div class="cardImg"></div>
+          <img class="miniEvent" src="assets/festa 3.png" alt="Logo da página" />
+          <div class="cardInfo">
+            <div class="data"><b>29/02 - 12:00</b></div>
+            <div class="miniInfo">
+              <P>Sinta o Sol!!</P>
+            </div>
+            <div class="local">
+              <P>Centro de Mauá - SP</P>
+            </div>
+          </div>
+        </li>
+        <li class="card">
+          <div class="cardImg"></div>
+          <img class="miniEvent" src="assets/festa2.jpg" alt="Logo da página" />
+          <div class="cardInfo">
+            <div class="data"><b>31/05 - 14:00</b></div>
+            <div class="miniInfo">
+              <P>Sinta o Sol!!</P>
+            </div>
+            <div class="local">
+              <P>Centro de Mauá - SP</P>
+            </div>
+          </div>
+
+        </li>
+        <li class="card">
+          <div class="cardImg"></div>
+          <img class="miniEvent" src="assets/festa.jpg" alt="Logo da página" />
+          <div class="cardInfo">
+            <div class="data"><b>27/10 - 21:00</b></div>
+            <div class="miniInfo">
+              <P>Sinta o Sol!!</P>
+            </div>
+            <div class="local">
+              <P>Centro de Mauá - SP</P>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+</body>
+
 </html>
