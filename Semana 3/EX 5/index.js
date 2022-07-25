@@ -32,3 +32,11 @@ const convidado5 = {
     setor: "pista",
     idade: 66,
 };
+
+var listaDeConvidados = [
+    convidado1,
+    convidado2,
+    convidado3,
+    convidado4,
+    convidado5
+];
