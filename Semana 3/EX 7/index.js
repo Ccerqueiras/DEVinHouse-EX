@@ -81,11 +81,11 @@ const separarCamarote = function (lista) {
   return resultado;
 };
 //outra forma !!!!!!!
-const filtrarPorSetor = (lista, setor) => {
+const filtrarSetor = (lista, setor) => {
   return lista.filter((conv) => conv.setor === setor);
 };
 
 console.log(separarArquibancada(listaDeConvidados));
 console.log(separarCamarote(listaDeConvidados));
 console.log(separarPista(listaDeConvidados));
-console.log(filtrarPorSetor(listaDeConvidados,"pista"));
+console.log(filtrarSetor(listaDeConvidados,"pista"));
