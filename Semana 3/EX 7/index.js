@@ -22,7 +22,7 @@ const convidado3 = {
 const convidado4 = {
   nome: "bruna",
   sobrenome: "fini",
-  setor: "pista",
+  setor: "arquibancada",
   idade: 17,
 };
 
@@ -53,6 +53,24 @@ function liberarBebidas(lista) {
 }
 const convidadosComBebidasProcessada = liberarBebidas(listaDeConvidados);
 
+const separarPista = function (lista) {
+  const resultado = lista.filter((convidado) => {
+    if (convidado.setor === "pista") {
+      return true;
+    }
+      return false;
+  });
+  return resultado;
+};
+const separarArquibancada = function (lista) {
+  const resultado = lista.filter((convidado) => {
+    if (convidado.setor === "arquibancada") {
+      return true;
+    }
+      return false;
+  });
+  return resultado;
+};
 const separarCamarote = function (lista) {
   const resultado = lista.filter((convidado) => {
     if (convidado.setor === "camarote") {
@@ -62,5 +80,12 @@ const separarCamarote = function (lista) {
   });
   return resultado;
 };
+//outra forma !!!!!!!
+const filtrarPorSetor = (lista, setor) => {
+  return lista.filter((conv) => conv.setor === setor);
+};
 
+console.log(separarArquibancada(listaDeConvidados));
 console.log(separarCamarote(listaDeConvidados));
+console.log(separarPista(listaDeConvidados));
+console.log(filtrarPorSetor(listaDeConvidados,"pista"));
