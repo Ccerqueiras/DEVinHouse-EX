@@ -95,9 +95,6 @@ const ulCamarote = document.getElementById("camarote");
 const ulArquibancada = document.getElementById("arquibancada");
 
 
-const montaNome = (objPessoa) => {
-  return `${objPessoa.nome} ${objPessoa.sobrenome}`;
-};
 listaArquibancada.forEach((convidado) => {
   ulArquibancada.innerHTML +=`<li>${convidado.nome} ${convidado.sobrenome}`;
 });
