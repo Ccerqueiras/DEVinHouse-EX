@@ -10,9 +10,16 @@ export class Pedido {
   }
 
   adicionarProduto(produto) {
-    const verificaProduto = produto instanceof Produto;
+    const verificaProduto = produto instanceof Produto; //verifica se produto é instacia de Produto
     if (verificaProduto) {
       this.listaProdutos.push(produto);
     }
+  }
+  
+  calcularTotal(){
+    let total = this.listaProdutos.reduce((velho, novo)=>{
+        return velho + novo.preco * novo.quantidade;
+    }, 0);
+    return total;
   }
 }
