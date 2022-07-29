@@ -8,4 +8,11 @@ export class Pedido {
     this.dataPedido = new Date().toLocaleDateString();
     this.listaProdutos = [];
   }
+
+  adicionarProduto(produto) {
+    const verificaProduto = produto instanceof Produto;
+    if (verificaProduto) {
+      this.listaProdutos.push(produto);
+    }
+  }
 }
