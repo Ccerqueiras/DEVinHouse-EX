@@ -8,3 +8,4 @@ export class Pedido {
     this.dataPedido = new Date().toLocaleDateString();
     this.listaProdutos = [];
   }
+}
