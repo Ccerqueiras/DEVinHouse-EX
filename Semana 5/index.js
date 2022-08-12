@@ -7,8 +7,8 @@ const pro3 = new Produto("etios", 45_000, false, 0);
 const pro4 = new Produto("fiesta", 37_000, true, 6);
 const pro5 = new Produto("combi", 13_000, false, 0);
 
-const ped1 = new Pedido("7494091", "Caio");
-const ped2 = new Pedido("7056591", "Victor");
+const ped1 = new Pedido("20220001", "Caio");
+const ped2 = new Pedido("20220002", "Victor");
 ped1.adicionarProduto(pro2);
 ped1.adicionarProduto(pro1);
 ped1.adicionarProduto(pro4);
